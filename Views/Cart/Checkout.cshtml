@@ -1,0 +1,44 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<BoardGames_FinalProject.Data.StripeSettings> Stripe
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+@*<!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+    </head>
+    <body>
+        <h3>Checkout Page</h3>
+        <table cellpadding="2" cellspacing="2" border="1">
+            <tr>
+                <th> Total Amount To Pay</th>
+            </tr>
+            <tr>
+                <td class="d-lg-table-cell">
+                    @ViewBag.total
+                </td>
+            </tr>
+        </table>
+    </body>
+    </html>*@
+<div class="text-center">
+    <form asp-action="Processing" asp-controller="Cart" method="post">
+        <article>
+            <label>Amount: @String.Format("{0:c}", ViewBag.total / 100.00)</label>
+        </article>
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="@Stripe.Value.PublishableKey"
+                data-amount="@ViewBag.Total"
+                data-name="The Board Game Store"
+                data-description="Board Game payment"
+                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                data-locale="en"
+                data-zip-code="true">
+        </script>
+    </form>
+    <br />
+    <a class="btn btn-danger text-center" asp-action="List" asp-controller="BoardGame">Back to Shopping</a>
+</div>
