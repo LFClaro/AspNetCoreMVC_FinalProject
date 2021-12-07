@@ -490,7 +490,6 @@ C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\ob
 C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\BoardGames_FinalProject.TagHelpers.input.cache
 C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\BoardGames_FinalProject.TagHelpers.output.cache
 C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\BoardGames_FinalProject.RazorCoreGenerate.cache
-C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
 C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
@@ -695,3 +694,11 @@ D:\asp.net\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\U
 D:\asp.net\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 D:\asp.net\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 D:\asp.net\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\BoardGame\BoardGame.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\BoardGame\Index.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\BoardGame\SearchResults.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Add.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\lfcla\source\repos\[ASPNET_FINAL_PROJECT]\AspNetCoreMVC_FinalProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
