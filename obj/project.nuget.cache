@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eAO4gQ5T7+PLn9cd9C/eGOmFl9LTHjv7fZ4uZSmfBOluTQfepTurqcu/rTaiCZixm0C3OSW0BR5AZojffIoomw==",
+  "dgSpecHash": "nyVX0789uD3ddbg6OrGzZ/RMjiX63xeHBVyBGVHthYPqj79Kt9fUdUUGMl4H5FzK8ylgSnUBGBAblKdvpbXRyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lfcla\\source\\repos\\AspNet_FINAL_CART\\Asp.net-Final\\BoardGames_FinalProject\\BoardGames_FinalProject.csproj",
+  "projectFilePath": "C:\\Users\\lfcla\\source\\repos\\[ASPNET_FINAL_PROJECT]\\AspNetCoreMVC_FinalProject\\BoardGames_FinalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lfcla\\.nuget\\packages\\flurl\\3.0.2\\flurl.3.0.2.nupkg.sha512",
     "C:\\Users\\lfcla\\.nuget\\packages\\flurl.http\\3.2.0\\flurl.http.3.2.0.nupkg.sha512",

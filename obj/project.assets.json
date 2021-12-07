@@ -9195,11 +9195,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lfcla\\source\\repos\\AspNet_FINAL_CART\\Asp.net-Final\\BoardGames_FinalProject\\BoardGames_FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\lfcla\\source\\repos\\[ASPNET_FINAL_PROJECT]\\AspNetCoreMVC_FinalProject\\BoardGames_FinalProject.csproj",
       "projectName": "BoardGames_FinalProject",
-      "projectPath": "C:\\Users\\lfcla\\source\\repos\\AspNet_FINAL_CART\\Asp.net-Final\\BoardGames_FinalProject\\BoardGames_FinalProject.csproj",
+      "projectPath": "C:\\Users\\lfcla\\source\\repos\\[ASPNET_FINAL_PROJECT]\\AspNetCoreMVC_FinalProject\\BoardGames_FinalProject.csproj",
       "packagesPath": "C:\\Users\\lfcla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lfcla\\source\\repos\\AspNet_FINAL_CART\\Asp.net-Final\\BoardGames_FinalProject\\obj\\",
+      "outputPath": "C:\\Users\\lfcla\\source\\repos\\[ASPNET_FINAL_PROJECT]\\AspNetCoreMVC_FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lfcla\\AppData\\Roaming\\NuGet\\NuGet.Config",

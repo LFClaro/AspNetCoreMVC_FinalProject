@@ -2,11 +2,11 @@
     @inject IOptions<ECommerceShoppingCartASPNet5.Data.StripeSettings> Stripe*@
 
 @{
-    Layout = "_Layout";
+    ViewData["Title"] = "Payment Processed";
 }
 
 <div class="text-center">
-    <form asp-action="Processing" asp-controller="Checkout" method="post">
+    <form asp-action="Processing" asp-controller="Cart" method="post">
 
         <label class="text-info">Your Payment has been successfully processed</label>
         <br />

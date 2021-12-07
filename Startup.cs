@@ -34,7 +34,7 @@ namespace BoardGames_FinalProject
         {
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
 
-            services.AddRouting(options => options.LowercaseUrls = true);
+            //services.AddRouting(options => options.LowercaseUrls = true);
 
             services.AddMemoryCache();
             services.AddSession();

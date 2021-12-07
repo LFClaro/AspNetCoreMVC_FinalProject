@@ -139,7 +139,7 @@ namespace BoardGames_FinalProject.Controllers
             var optionsCust = new CustomerCreateOptions
             {
                 Email = stripeEmail,
-                Name = "Test",
+                Name = "Test Customer",
                 Phone = "123-456-7890"
 
             };
@@ -163,7 +163,11 @@ namespace BoardGames_FinalProject.Controllers
                 ViewBag.AmountPaid = Convert.ToDecimal(charge.Amount) % 100 / 100 + (charge.Amount) / 100;
                 ViewBag.BalanceTxId = BalanceTransactionId;
                 ViewBag.Customer = customer.Name;
-                //return View();
+                ViewBag.Email = customer.Email;
+
+                Cart cart = GetCart();
+                cart.Clear();
+                cart.Save();
             }
 
             return View();
