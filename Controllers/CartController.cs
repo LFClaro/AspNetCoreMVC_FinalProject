@@ -4,6 +4,7 @@ using BoardGames_FinalProject.Models.DataLayer.Repositories;
 using BoardGames_FinalProject.Models.DTOs;
 using BoardGames_FinalProject.Models.Grid;
 using BoardGames_FinalProject.Models.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Stripe;
 using System;
@@ -17,7 +18,6 @@ namespace BoardGames_FinalProject.Controllers
         private Repository<BoardGame> data { get; set; }
         public CartController(BoardGameContext ctx) => data = new Repository<BoardGame>(ctx);
 
-
         private Cart GetCart()
         {
             var cart = new Cart(HttpContext);
@@ -25,7 +25,7 @@ namespace BoardGames_FinalProject.Controllers
             return cart;
         }
 
-        public ViewResult Index()
+        public ViewResult Index(int id)
         {
             var cart = GetCart();
 
@@ -124,13 +124,16 @@ namespace BoardGames_FinalProject.Controllers
         public string TotalAmount { get; set; }
         public IActionResult Checkout()
         {
-            Cart cart = GetCart();
-            ViewBag.cart = cart;
-            ViewBag.total = Math.Round(cart.Subtotal, 2) * 100;
-            ViewBag.total = Convert.ToInt64(ViewBag.total);
-            long total = ViewBag.total;
-            TotalAmount = total.ToString();
-            return View();
+
+            
+                Cart cart = GetCart();
+                ViewBag.cart = cart;
+                ViewBag.total = Math.Round(cart.Subtotal, 2) * 100;
+                ViewBag.total = Convert.ToInt64(ViewBag.total);
+                long total = ViewBag.total;
+                TotalAmount = total.ToString();
+                return View();
+         
         }
 
         [HttpPost]
