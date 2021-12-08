@@ -18,6 +18,8 @@ namespace BoardGames_FinalProject.Controllers
         private Repository<BoardGame> data { get; set; }
         public CartController(BoardGameContext ctx) => data = new Repository<BoardGame>(ctx);
 
+        private SignInManager<User> signInManager;
+
         private Cart GetCart()
         {
             var cart = new Cart(HttpContext);
@@ -90,8 +92,6 @@ namespace BoardGames_FinalProject.Controllers
             TempData["message"] = "Cart cleared.";
             return RedirectToAction("Index");
         }
-
-
         public IActionResult Edit(string id)
         {
             Cart cart = GetCart();
@@ -124,8 +124,6 @@ namespace BoardGames_FinalProject.Controllers
         public string TotalAmount { get; set; }
         public IActionResult Checkout()
         {
-
-            
                 Cart cart = GetCart();
                 ViewBag.cart = cart;
                 ViewBag.total = Math.Round(cart.Subtotal, 2) * 100;
@@ -133,7 +131,6 @@ namespace BoardGames_FinalProject.Controllers
                 long total = ViewBag.total;
                 TotalAmount = total.ToString();
                 return View();
-         
         }
 
         [HttpPost]
@@ -142,7 +139,7 @@ namespace BoardGames_FinalProject.Controllers
             var optionsCust = new CustomerCreateOptions
             {
                 Email = stripeEmail,
-                Name = "Test Customer",
+                Name = User.Identity.Name,
                 Phone = "123-456-7890"
 
             };

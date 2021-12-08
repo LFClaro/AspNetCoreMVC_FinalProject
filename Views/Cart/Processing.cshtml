@@ -13,17 +13,10 @@
         <br />
         <p class="blockquote text-center">
             The details of the transaction are  <br />
-            Customer : @ViewBag.Customer <br /> <br />
+            Customer : @ViewBag.Customer <br />
             Amount : $ @ViewBag.AmountPaid
 
 
         </p>
-
-        @*@if (TempData.Peek("TotalAmount") != null)
-            {
-                var result = Convert.ToInt64(TempData.Peek("TotalAmount"));
-                result /= 100;
-                <h3>Amount: @result USD has been processed successfully.</h3>
-            }*@
     </form>
 </div>
