@@ -70,7 +70,7 @@ namespace Areas.Admin.Controllers
                 data.BoardGames.Insert(vm.BoardGame);
                 data.Save();
 
-                TempData["message"] = $"{vm.BoardGame.name} added to BoardGame.";
+                TempData["message"] = $"{vm.BoardGame.name} added to BoardGames.";
                 return RedirectToAction("Index");  
             }
             else {
